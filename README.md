@@ -1,4 +1,4 @@
-# Social Share Button
+# Share Button Maker
 
 This is a gem to helper you quick create a share feature in you Rails apps.
 
@@ -47,7 +47,7 @@ $ rails generate share_button_maker:install
 
 ## Configure
 
-You can config `config/initializers/social_share_button.rb` to choose which site do you want to use:
+You can config `config/initializers/share_button_maker.rb` to choose which site do you want to use:
 
 ```ruby
 ShareButtonMaker.configure do |config|
